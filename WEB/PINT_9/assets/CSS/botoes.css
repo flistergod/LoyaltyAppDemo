@@ -1,0 +1,37 @@
+.botoes{
+	width: 100%;
+}
+.no-results{
+	text-align: center;
+	background-color: white;
+	color: black;
+	height: 200px;
+}
+.vertical-align{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.modal-center {
+    display:table;
+    height: 100%;
+    width: 100%;
+}
+.modal-align-center {: table-cell;vertical-align: middle;}
+.modal-content {height:inherit;margin: 0 auto;}
+
+.btn-success{
+	background: #283352 !important;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	display: inline;
+}
+@media only screen and (min-width: 40em) {
+	.no-results{
+		height: 500px;
+	}
+}
+
